@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import ABI from "./ABI.json";
 
-const CONTRACT_ADDRESS = "0xF2b9d2953aC34B1eC74493FC011C06E2604fc5cE"; // Replace with your contract address
+const CONTRACT_ADDRESS = "XXXXXXX"; // Replace with your contract address
 
 export async function connectContract() {
   if (!window.ethereum) throw new Error("MetaMask is not installed.");
